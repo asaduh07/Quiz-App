@@ -2,28 +2,28 @@
 
 ## Project Structure
 
-- **frontend/**: Contains the React frontend application.
-- **backend/**: Contains the Node.js and Express backend application.
+- **/Frontend**: Contains the React frontend application.
+- **/Backend**: Contains the Node.js and Express backend application.
 
 ## Installation
 
 1. **Clone the repository:**
     ```bash
-    git clone <repository-url>
-    cd your-project
+    git clone https://github.com/asaduh07/Quiz-App.git
+    cd Quiz-App
     ```
 
 2. **Install dependencies:**
 
     - For the backend:
         ```bash
-        cd backend
+        cd Backend
         npm install
         ```
 
     - For the frontend:
         ```bash
-        cd ../frontend
+        cd ../Frontend
         npm install
         ```
 
@@ -32,7 +32,7 @@
 1. **Start the backend server:**
 
     ```bash
-    cd backend
+    cd Backend
     npm start
     ```
 
@@ -41,13 +41,13 @@
     Open a new terminal and run:
 
     ```bash
-    cd frontend
+    cd Frontend
     npm start
     ```
 
 ## Environment Variables
 
-Create a `.env` file in both `frontend` and `backend` directories based on the `.env.example` file provided.
+Create a `.env` file in both `Frontend` and `Backend` directories based on the `.env.example` file provided.
 
 ## License
 
